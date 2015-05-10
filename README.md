@@ -3,6 +3,7 @@ A pet project to practice a few skills and learn some new things.
 
 While I'm at the Interface/Flywheel WordPress school, I thought I'd spin up this site to practice a few skills and learn some new things.
 The things I've incorporated are:
+
 1. Git (duh, you're on GitHub, right?)
 2. Sass (from the _s theme)
 
