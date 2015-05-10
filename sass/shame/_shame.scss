@@ -1,0 +1,73 @@
+/*
+ * HEADER
+ */
+
+.checkerboard {
+	background-color: #eee;
+	background-image: linear-gradient(45deg, black 25%, transparent 25%, transparent 75%, black 75%, black), 
+	linear-gradient(45deg, black 25%, transparent 25%, transparent 75%, black 75%, black);
+	background-size: 60px 60px;
+	background-position: 0 0, 30px 30px;
+	min-height: 60px;
+}
+
+header img {
+	float: left;
+	padding: 1em;
+}
+
+header h1 {
+	clear: none;
+	color: #E10D19;
+	font-family: 'Roboto', sans-serif;
+	font-size: 4em;
+	font-weight: 900;
+	line-height: 1;
+	margin-bottom: 0;
+	margin-top: 0;
+	padding-bottom: .3em;
+	text-align: center;
+	text-shadow: 3px 2px 1px rgba(0, 0, 0, 0.7);
+}
+
+
+/*
+ * FOOTER
+ */
+
+footer {
+	background-color: black;
+	clear: both;
+	color: white;
+	font-size: .8em;
+	padding: 1em 0;
+	text-align: center;
+}
+
+/*
+ * MEDIA QUERIES
+ */
+
+ @media screen and (min-width: 671px) {
+/***** introduces columns *****/
+
+ 	article {
+		float: left;
+		padding-right: 0;
+		width: 60%;
+	}
+
+	aside {
+		clear: none;
+		float: right;
+		width: 30%;
+	}
+ }
+
+ @media screen and (min-width: 750px) {
+/***** introduces menu bar *****/
+
+ 	nav li {
+		float: left;
+	}
+ }

@@ -1,0 +1,27 @@
+$style-tile-1: #ff0000;	// main site color
+$style-tile-2: #e6e6e6;	// accent color
+$style-tile-3: #ccc;	// secondary accent color
+$style-tile-4: #fff;	// background
+$style-tile-5: #404040;	// text
+
+$color__background-body: $style-tile-4;
+$color__background-screen: #f1f1f1;
+$color__background-hr: $style-tile-3;
+$color__background-button: $style-tile-2;
+$color__background-pre: #eee;
+$color__background-ins: #fff9c0;
+$color__background-nav: $style-tile-1;
+
+$color__text-screen: $style-tile-5;
+$color__text-input: #666;
+$color__text-input-focus: #111;
+$color__link: $style-tile-2;
+$color__link-visited: $style-tile-2;
+$color__link-hover: $style-tile-3;
+$color__text-main: $style-tile-5;
+
+$color__border-button: #ccc #ccc #bbb;
+$color__border-button-hover: #ccc #bbb #aaa;
+$color__border-button-focus: #aaa #bbb #bbb;
+$color__border-input: #ccc;
+$color__border-abbr: #666;

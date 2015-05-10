@@ -1,0 +1,15 @@
+h1, h2, h3, h4, h5, h6 {
+	clear: both;
+	font-family: $font__headings;
+}
+
+h1 {
+	font-size: 3em;
+	line-height: 1;
+	margin-bottom: .7em;
+}
+
+h2 {
+	font-size: 2em;
+	margin-bottom: .5em;
+}
