@@ -1,46 +1,43 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<title>Forms Exercise</title>
-</head>
-<body>
+<?php require 'header.php' ?>
 
-	<h1>Contact Form Exercise</h1>
+	<h1>Race Day Data Entry</h1>
 
 	<!-- Create your HTML form here -->
 
 	<form method="POST" action="<?php echo $_SERVER['PHP_SELF']; ?>">
-		
-		<label for="firstname">First Name: </label>
+
+		<label for="team">Team Name: </label>
+		<input type="text" name="team" /><br>
+		<br>
+		<label for="firstname">Driver First Name: </label>
 			<input type="text" name="firstname" /><br>
 		<br>
-		<label for="lastname">Last Name: </label>
+		<label for="lastname">Driver Last Name: </label>
 			<input type="text" name="lastname" /><br>
 		<br>
-		<label for="emailaddress">Email address: </label>
-			<input type="email" name="emailaddress" /><br>
+		<label for="vehiclenumber">Vehicle Number: </label>
+		<input type="text" name="vehiclenumber" /><br>
 		<br>
-		<label for="website-url">Website URL: </label>
-			<input type="url" name="websiteurl" /><br>
-		<br>
-		<label for="jobtype">Type of job: </label><br>
-			<input type="radio" id="newbuild" name="jobtype" <?php if (isset($jobtype) && $jobtype=="New Build") echo "checked";?> value="New Build" label="New build" accesskey="N" />New build<br>
-			<input type="radio" id="redesign" name="jobtype" <?php if (isset($jobtype) && $jobtype=="Redesign") echo "checked";?> value="Redesign" label="Redesign" accesskey="R" />Redesign<br>
-		<br>
-		<label for="budget">Budget selector: </label>
-			<select name="budget" />
-				<option value="$0-1,000">$0-1,000</option>
-				<option value="$1,001-5,000">$1,001-5,000</option>
-				<option value="$5,001-10,000" selected="selected">$5,001-10,000</option>
+		<label for="raceclass">Race Class: </label>
+			<select name="raceclass" />
+				<option value="stock">Stock</option>
+				<option value="modified">Modified</option>
+				<option value="custom">Custom</option>
+				<option value="motorcycle">Motorcycle</option>
 			</select><br>
 		<br>
-		<label for="features">Will You Need: </label><br>
-			<label for="contactform">Contact Form: </label><input type="checkbox" value="contactform" name="features"><br>
-			<label for="photogallery">Photo Gallery: </label><input type="checkbox" value="photogallery" name="features"><br>
+		<label for="tenure">First time racer? </label><br>
+			<input type="radio" id="rookie" name="tenure" <?php if (isset($tenure) && $tenure=="Rookie") echo "checked";?> value="Rookie" label="Rookie" accesskey="R" />Rookie<br>
+			<input type="radio" id="veteran" name="tenure" <?php if (isset($tenure) && $tenure=="Veteran") echo "checked";?> value="Veteran" label="Veteran" accesskey="V" />Veteran<br>
 		<br>
-		<label for="message">Message: </label><br>
-			<textarea name="message" cols="40" rows="10" placeholder="Say please..."></textarea><br>
+		<label for="heat">Heat Number: </label>
+			<input type="number" name="heat" /><br>
+		<br>
+		<label for="heattime">Heat Time: </label>
+			<input type="number" name="heattime" /><br>
+		<br>
+		<label for="notes">Notes: </label><br>
+			<textarea name="message" cols="40" rows="3" placeholder="Anything unusual?"></textarea><br>
 		<br>
 
 		<input type="submit" value="Send"/><input type="reset" value="Reset">
@@ -75,6 +72,9 @@
 				echo "<h2>ResultsOoops!</h2>You need to fill out all the fields in the form.";
 			}
 		?>
+		
+</article>
 
-</body>
-</html>
+<?php include 'sidebar.php' ?>
+
+<?php include 'footer.php' ?>
