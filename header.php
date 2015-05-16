@@ -21,7 +21,11 @@
 		<ul>
 			<li><a href="index.php">Home</a></li>
 			<li><a href="world-of-fastness.php">World of Fastness</a></li>
-			<li><a href="racedayform.php">Race Day</a></li>
+			<li><a href="raceday.php">Race Day</a></li>
+			<ul>
+				<li><a href="teams.php">Teams</a></li>
+				<li><a href="heats.php">Heats</a></li>
+			</ul>
 			<li><a href="results.php">Results</a></li>
 			<li><a href="sfra.php">SFRA</a></li>
 			<li><a href="store.php">Store</a></li>
