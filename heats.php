@@ -1,6 +1,6 @@
 <?php require 'header.php' ?>
 
-	<h1>Race Day Teams Entry</h1>
+	<h1>Race Day Heats Entry</h1>
 
 	<!-- Create your HTML form here -->
 
