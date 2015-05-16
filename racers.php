@@ -33,10 +33,6 @@
 		<label for="racerzip">Zip Code: </label>
 			<input type="text" name="racerzip" />
 		<br>
-		<label for="teamtenure">First time team? </label><br>
-			<input type="radio" id="rookieteam" name="teamtenure" <?php if (isset($teamtenure) && $teamtenure=="Rookie") echo "checked";?> value="Rookie" label="Rookie" accesskey="R" />Rookie<br>
-			<input type="radio" id="veteranteam" name="teamtenure" <?php if (isset($teamtenure) && $teamtenure=="Veteran") echo "checked";?> value="Veteran" label="Veteran" accesskey="V" />Veteran<br>
-		<br>
 		<label for="racertenure">First time racer? </label><br>
 			<input type="radio" id="rookie" name="racertenure" <?php if (isset($racertenure) && $racertenure=="Rookie") echo "checked";?> value="Rookie" label="Rookie" accesskey="R" />Rookie<br>
 			<input type="radio" id="veteran" name="racertenure" <?php if (isset($racertenure) && $racertenure=="Veteran") echo "checked";?> value="Veteran" label="Veteran" accesskey="V" />Veteran<br>
