@@ -72,7 +72,7 @@
 				echo "<h2>ResultsOoops!</h2>You need to fill out all the fields in the form.";
 			}
 		?>
-		
+
 </article>
 
 <?php include 'sidebar.php' ?>
