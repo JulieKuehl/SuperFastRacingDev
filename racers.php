@@ -2,6 +2,15 @@
 
 	<h1>Race Day Racers Entry</h1>
 
+	<nav class="secondary-nav">
+		<ul>
+			<li><a href="raceday.php">Race Day</a></li>
+			<li><a href="teams.php">Teams</a></li>
+			<li><a href="racers.php">Racers</a></li>
+			<li><a href="heats.php">Heats</a></li>
+		</ul>
+	</nav>
+
 	<!-- Create your HTML form here -->
 
 	<form method="POST" action="<?php echo $_SERVER['PHP_SELF']; ?>">
