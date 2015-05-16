@@ -15,25 +15,23 @@
 
 	<form method="POST" action="<?php echo $_SERVER['PHP_SELF']; ?>">
 
-		<label for="team">Team Name: </label>
-		<input type="text" name="team" /><br>
-		<br>
 		<label for="firstname">Racer First Name: </label>
 			<input type="text" name="firstname" /><br>
 		<br>
 		<label for="lastname">Racer Last Name: </label>
 			<input type="text" name="lastname" /><br>
 		<br>
-		<label for="vehiclenumber">Vehicle Number: </label>
-		<input type="text" name="vehiclenumber" /><br>
+		<label for="team">Team Name: </label>
+			<input type="text" name="team" /><br>
 		<br>
-		<label for="raceclass">Race Class: </label>
-			<select name="raceclass" />
-				<option value="stock">Stock</option>
-				<option value="modified">Modified</option>
-				<option value="custom">Custom</option>
-				<option value="motorcycle">Motorcycle</option>
-			</select><br>
+		<label for="raceraddress">Address: </label>
+			<input type="text" name="raceraddress" /><br>
+		<label for="racercity">City: </label>
+			<input type="text" name="racercity" /><br>
+		<label for="racerstate">State: </label>
+			<input type="text" name="racerstate" /><br>
+		<label for="racerzip">Zip Code: </label>
+			<input type="text" name="racerzip" />
 		<br>
 		<label for="teamtenure">First time team? </label><br>
 			<input type="radio" id="rookieteam" name="teamtenure" <?php if (isset($teamtenure) && $teamtenure=="Rookie") echo "checked";?> value="Rookie" label="Rookie" accesskey="R" />Rookie<br>
