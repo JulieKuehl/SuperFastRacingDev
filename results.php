@@ -1,5 +1,7 @@
 <?php require 'header.php' ?>
+</article>
 
+<div class="resultspage">
 		<h1>World of Fastness Results</h1>
 		<p>Here are the results from the 2014 World of Fastness event.</p>
 		<table class="race-results">
@@ -34,8 +36,9 @@
 				<td>131.4</td>
 			</tr>
 		</table>
-	</article>
+</div><!-- .resultspage -->
+<!--	</article>-->
 
-<?php include 'sidebar.php' ?>
+<?php //include 'sidebar.php' ?>
 
 <?php include 'footer.php' ?>

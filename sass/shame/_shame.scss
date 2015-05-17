@@ -104,6 +104,23 @@ input[type="submit"]:hover {
 }
 
 /*
+ * RESULTS PAGE
+ */
+// set to full-width
+.resultspage {
+    margin: 0 auto;
+    width: 94%;
+}
+
+.resultspage h1 {
+    padding-top: .67em;
+}
+
+.resultspage th {
+    text-align: left;
+}
+
+/*
  * FOOTER
  */
 

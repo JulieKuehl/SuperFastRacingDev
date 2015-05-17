@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="210972e0-6d4f-4ea5-b7da-334e2efe8af2" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/heats.php" afterPath="$PROJECT_DIR$/heats.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/raceday.php" afterPath="$PROJECT_DIR$/raceday.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/racers.php" afterPath="$PROJECT_DIR$/racers.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/teams.php" afterPath="$PROJECT_DIR$/teams.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sass/.sass-cache/fe0d0eec4953857f5747648a9bfe854da12755e6/_shame.scssc" afterPath="$PROJECT_DIR$/sass/.sass-cache/fe0d0eec4953857f5747648a9bfe854da12755e6/_shame.scssc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sass/shame/_shame.scss" afterPath="$PROJECT_DIR$/sass/shame/_shame.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/results.php" afterPath="$PROJECT_DIR$/results.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/style.css" afterPath="$PROJECT_DIR$/style.css" />
     </list>
     <ignored path="www.superfastproject.dev.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -30,14 +30,34 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="raceday.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="raceday.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/raceday.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.7381703" vertical-offset="612" max-vertical-offset="1728">
+            <state vertical-scroll-proportion="-19.636364" vertical-offset="612" max-vertical-offset="1728">
               <caret line="58" column="41" selection-start-line="58" selection-start-column="41" selection-end-line="58" selection-end-column="41" />
               <folding>
                 <element signature="e#2274#2276#0#PHP" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="results.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/results.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-19.818182" vertical-offset="248" max-vertical-offset="882">
+              <caret line="38" column="0" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_shame.scss" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/sass/shame/_shame.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.7949527" vertical-offset="1656" max-vertical-offset="3024">
+              <caret line="119" column="20" selection-start-line="119" selection-start-column="20" selection-end-line="119" selection-end-column="20" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -94,11 +114,12 @@
         <option value="$PROJECT_DIR$/header.php" />
         <option value="$PROJECT_DIR$/sass/navigation/_menus.scss" />
         <option value="$PROJECT_DIR$/sass/variables-site/_colors.scss" />
-        <option value="$PROJECT_DIR$/sass/shame/_shame.scss" />
         <option value="$PROJECT_DIR$/teams.php" />
         <option value="$PROJECT_DIR$/racers.php" />
         <option value="$PROJECT_DIR$/heats.php" />
         <option value="$PROJECT_DIR$/raceday.php" />
+        <option value="$PROJECT_DIR$/results.php" />
+        <option value="$PROJECT_DIR$/sass/shame/_shame.scss" />
       </list>
     </option>
   </component>
@@ -163,6 +184,24 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="sass" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="www.superfastproject.dev" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="www.superfastproject.dev" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sass" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="shame" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -369,14 +408,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sass/shame/_shame.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.8233439" vertical-offset="1332" max-vertical-offset="2718">
-          <caret line="102" column="59" selection-start-line="102" selection-start-column="59" selection-end-line="102" selection-end-column="59" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/teams.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-4.090909" vertical-offset="0" max-vertical-offset="1386">
@@ -403,11 +434,27 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/raceday.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7381703" vertical-offset="612" max-vertical-offset="1728">
+        <state vertical-scroll-proportion="-19.636364" vertical-offset="612" max-vertical-offset="1728">
           <caret line="58" column="41" selection-start-line="58" selection-start-column="41" selection-end-line="58" selection-end-column="41" />
           <folding>
             <element signature="e#2274#2276#0#PHP" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/results.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-19.818182" vertical-offset="248" max-vertical-offset="882">
+          <caret line="38" column="0" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sass/shame/_shame.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.7949527" vertical-offset="1656" max-vertical-offset="3024">
+          <caret line="119" column="20" selection-start-line="119" selection-start-column="20" selection-end-line="119" selection-end-column="20" />
+          <folding />
         </state>
       </provider>
     </entry>

@@ -838,6 +838,19 @@ input[type="submit"]:hover {
   background-color: #4d4dff; }
 
 /*
+ * RESULTS PAGE
+ */
+.resultspage {
+  margin: 0 auto;
+  width: 94%; }
+
+.resultspage h1 {
+  padding-top: .67em; }
+
+.resultspage th {
+  text-align: left; }
+
+/*
  * FOOTER
  */
 footer {
