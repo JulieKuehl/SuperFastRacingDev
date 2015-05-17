@@ -37,8 +37,8 @@
 			<input type="radio" id="rookie" name="racertenure" <?php if (isset($racertenure) && $racertenure=="Rookie") echo "checked";?> value="Rookie" label="Rookie" accesskey="R" />Rookie<br>
 			<input type="radio" id="veteran" name="racertenure" <?php if (isset($racertenure) && $racertenure=="Veteran") echo "checked";?> value="Veteran" label="Veteran" accesskey="V" />Veteran<br>
 		<br>
-		<label for="notes">Notes: </label><br>
-			<textarea name="message" cols="40" rows="3" placeholder="Anything unusual?"></textarea><br>
+		<label for="racernotes">Notes: </label><br>
+			<textarea name="racernotes" cols="40" rows="3" placeholder="Anything unusual?"></textarea><br>
 		<br>
 
 		<input type="submit" value="Send"/><input type="reset" value="Reset">
@@ -51,27 +51,25 @@
 
 	<!-- Add your PHP checks here -->
 
-		<?php
+<?php
 
-$firstname = $_POST['firstname'];
-$lastname = $_POST['lastname'];
-$emailaddress = $_POST['emailaddress'];
-$websiteurl = $_POST['websiteurl'];
-$jobtype = $_POST['jobtype'];
-$budget = $_POST['budget'];
-$features = $_POST['features'];
-$message = $_POST['message'];
-$recipient = "josh@getflywheel.com";
-$subject = "Contact Form Submission from Julie Kuehl";
-$mailheader = "From: $emailaddress \r\n";
+	$firstname = $_POST['firstname'];
+	$lastname = $_POST['lastname'];
+	$team = $_POST['team'];
+	$raceraddress = $_POST['raceraddress'];
+	$racercity = $_POST['racercity'];
+	$racerstate = $_POST['racerstate'];
+	$racerzip = $_POST['racerzip'];
+	$racertenure = $_POST['racertenure'];
+	$racernotes = $_POST['racernotes'];
 
-if (isset($firstname, $lastname, $emailaddress, $message)) {
-	mail($recipient, $subject, $message, $mailheader) or die("Oops! You need to fill in your name, email address, and message to send the form.");
-	echo "<h2>Thank You!</h2>I'll be in touch shortly.";
 
-} else {
-	echo "<h2>ResultsOoops!</h2>You need to fill out all the fields in the form.";
-}
+	if (isset($firstname, $lastname, $team)) {
+	//		mail($vehiclenumber, $heatnumber, $heattime) or die("Ooops! You need to fill out all the fields in the form (except notes).");
+		echo "Entry saved";
+	} else {
+		echo "<h2>Ooops!</h2>You need to fill out the racer's name and team.";
+	}
 ?>
 
 </article>
