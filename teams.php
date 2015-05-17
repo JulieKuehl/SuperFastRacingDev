@@ -4,7 +4,6 @@
 
 	<nav class="secondary-nav">
 		<ul>
-			<li><a href="raceday.php">Race Day</a></li>
 			<li><a href="teams.php">Teams</a></li>
 			<li><a href="racers.php">Racers</a></li>
 			<li><a href="heats.php">Heats</a></li>
