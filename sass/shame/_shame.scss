@@ -58,7 +58,7 @@ header h1 {
 
         &:hover > a,
         &.focus > a {
-            color: $color__link-hover;
+            color: $style-tile-1;
         }
     }
     a {
@@ -94,6 +94,13 @@ input[type="submit"] {
     margin-right: 1em;
     padding: .6em 2em;
     text-shadow: none;
+}
+
+button, input[type="button"]:hover,
+input[type="reset"]:hover,
+input[type="submit"]:hover {
+    box-shadow: none;
+    background-color: lighten($color__background-button, 15%);
 }
 
 /*

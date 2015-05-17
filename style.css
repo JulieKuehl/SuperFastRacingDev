@@ -801,7 +801,7 @@ header h1 {
     text-align: center;
     text-transform: uppercase; }
     .secondary-nav li:hover > a, .secondary-nav li.focus > a {
-      color: yellow; }
+      color: #ff0000; }
   .secondary-nav a {
     color: #404040;
     display: block;
@@ -830,6 +830,12 @@ input[type="submit"] {
   margin-right: 1em;
   padding: .6em 2em;
   text-shadow: none; }
+
+button, input[type="button"]:hover,
+input[type="reset"]:hover,
+input[type="submit"]:hover {
+  box-shadow: none;
+  background-color: #4d4dff; }
 
 /*
  * FOOTER
