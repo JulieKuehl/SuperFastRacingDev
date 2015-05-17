@@ -33,8 +33,8 @@
 			<input type="radio" id="rookieteam" name="teamtenure" <?php if (isset($teamtenure) && $teamtenure=="Rookie") echo "checked";?> value="Rookie" label="Rookie" accesskey="R" />Rookie<br>
 			<input type="radio" id="veteranteam" name="teamtenure" <?php if (isset($teamtenure) && $teamtenure=="Veteran") echo "checked";?> value="Veteran" label="Veteran" accesskey="V" />Veteran<br>
 		<br>
-		<label for="notes">Notes: </label><br>
-			<textarea name="message" cols="40" rows="3" placeholder="Anything unusual?"></textarea><br>
+		<label for="teamnotes">Notes: </label><br>
+			<textarea name="teamnotes" cols="40" rows="3" placeholder="Anything unusual?"></textarea><br>
 		<br>
 
 		<input type="submit" value="Send"/><input type="reset" value="Reset">
@@ -47,27 +47,20 @@
 
 	<!-- Add your PHP checks here -->
 
-		<?php
+<?php
 
-$firstname = $_POST['firstname'];
-$lastname = $_POST['lastname'];
-$emailaddress = $_POST['emailaddress'];
-$websiteurl = $_POST['websiteurl'];
-$jobtype = $_POST['jobtype'];
-$budget = $_POST['budget'];
-$features = $_POST['features'];
-$message = $_POST['message'];
-$recipient = "josh@getflywheel.com";
-$subject = "Contact Form Submission from Julie Kuehl";
-$mailheader = "From: $emailaddress \r\n";
+	$team = $_POST['team'];
+	$vehiclenumber = $_POST['vehiclenumber'];
+	$raceclass = $_POST['raceclass'];
+	$teamtenure = $_POST['teamtenure'];
+	$teamnotes = $_POST['teamnotes'];
 
-if (isset($firstname, $lastname, $emailaddress, $message)) {
-	mail($recipient, $subject, $message, $mailheader) or die("Oops! You need to fill in your name, email address, and message to send the form.");
-	echo "<h2>Thank You!</h2>I'll be in touch shortly.";
-
-} else {
-	echo "<h2>ResultsOoops!</h2>You need to fill out all the fields in the form.";
-}
+	if (isset($team, $vehiclenumber, $raceclass)) {
+		//		mail($vehiclenumber, $heatnumber, $heattime) or die("Ooops! You need to fill out all the fields in the form (except notes).");
+		echo "Entry saved";
+	} else {
+		echo "<h2>Ooops!</h2>You need to fill out the team's name, vehicle number, and race class.";
+	}
 ?>
 
 </article>
