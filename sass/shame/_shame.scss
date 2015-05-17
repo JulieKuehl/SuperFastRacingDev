@@ -32,6 +32,71 @@ header h1 {
 
 
 /*
+ * SECONDARY NAV
+ */
+
+.secondary-nav {
+    background-color: $style-tile-3;
+    clear: both;
+    display: block;
+    float: left;
+    margin-bottom: 1em;
+    width: 100%;
+
+    ul {
+//        display: none;
+        list-style: none;
+        margin: 0;
+        padding-left: 0;
+    }
+    li {
+        float: left;
+        padding: 0;
+        position: relative;
+        text-align: center;
+        text-transform: uppercase;
+
+        &:hover > a,
+        &.focus > a {
+            color: $color__link-hover;
+        }
+    }
+    a {
+        color: $color__text-screen;
+        display: block;
+        font-weight: 700;
+        padding: 1em 1.2em;
+        text-decoration: none;
+    }
+
+    .current_page_item > a,
+    .current-menu-item > a,
+    .current_page_ancestor > a {
+        color: $color__link-hover;
+    }
+}
+
+/*
+ * FORM BUTTONS
+ */
+
+button, input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+    border: none;
+    border-radius: 3px;
+    box-shadow: none;
+    background-color: $color__background-button;
+    color: $color__text-button;
+    font-size: 12px;
+    font-size: 0.75rem;
+    line-height: 1;
+    margin-right: 1em;
+    padding: .6em 2em;
+    text-shadow: none;
+}
+
+/*
  * FOOTER
  */
 

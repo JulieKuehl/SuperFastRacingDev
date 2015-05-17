@@ -15,33 +15,14 @@
 
 	<form method="POST" action="<?php echo $_SERVER['PHP_SELF']; ?>">
 
-		<label for="team">Team Name: </label>
-		<input type="text" name="team" /><br>
-		<br>
-		<label for="firstname">Racer First Name: </label>
-			<input type="text" name="firstname" /><br>
-		<br>
-		<label for="lastname">Racer Last Name: </label>
-			<input type="text" name="lastname" /><br>
-		<br>
 		<label for="vehiclenumber">Vehicle Number: </label>
-		<input type="text" name="vehiclenumber" /><br>
+			<input type="text" name="vehiclenumber" /><br>
 		<br>
-		<label for="raceclass">Race Class: </label>
-			<select name="raceclass" />
-				<option value="stock">Stock</option>
-				<option value="modified">Modified</option>
-				<option value="custom">Custom</option>
-				<option value="motorcycle">Motorcycle</option>
-			</select><br>
+		<label for="heatnumber">Heat Number: </label>
+			<input type="text" name="heatnumber" /><br>
 		<br>
-		<label for="teamtenure">First time team? </label><br>
-			<input type="radio" id="rookieteam" name="teamtenure" <?php if (isset($teamtenure) && $teamtenure=="Rookie") echo "checked";?> value="Rookie" label="Rookie" accesskey="R" />Rookie<br>
-			<input type="radio" id="veteranteam" name="teamtenure" <?php if (isset($teamtenure) && $teamtenure=="Veteran") echo "checked";?> value="Veteran" label="Veteran" accesskey="V" />Veteran<br>
-		<br>
-		<label for="racertenure">First time racer? </label><br>
-			<input type="radio" id="rookie" name="racertenure" <?php if (isset($racertenure) && $racertenure=="Rookie") echo "checked";?> value="Rookie" label="Rookie" accesskey="R" />Rookie<br>
-			<input type="radio" id="veteran" name="racertenure" <?php if (isset($racertenure) && $racertenure=="Veteran") echo "checked";?> value="Veteran" label="Veteran" accesskey="V" />Veteran<br>
+		<label for="heattime">Heat Time: </label>
+			<input type="number" name="heattime" min="0" max="500" step="any" /><br>
 		<br>
 		<label for="notes">Notes: </label><br>
 			<textarea name="message" cols="40" rows="3" placeholder="Anything unusual?"></textarea><br>
