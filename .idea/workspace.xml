@@ -2,13 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="210972e0-6d4f-4ea5-b7da-334e2efe8af2" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sass/.sass-cache/071fc1db4ed336bbb8f98da3171e955dd568d254/_colors.scssc" afterPath="$PROJECT_DIR$/sass/.sass-cache/071fc1db4ed336bbb8f98da3171e955dd568d254/_colors.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sass/.sass-cache/fe0d0eec4953857f5747648a9bfe854da12755e6/_shame.scssc" afterPath="$PROJECT_DIR$/sass/.sass-cache/fe0d0eec4953857f5747648a9bfe854da12755e6/_shame.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sass/variables-site/_colors.scss" afterPath="$PROJECT_DIR$/sass/variables-site/_colors.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sass/shame/_shame.scss" afterPath="$PROJECT_DIR$/sass/shame/_shame.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/heats.php" afterPath="$PROJECT_DIR$/heats.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/style.css" afterPath="$PROJECT_DIR$/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="www.superfastproject.dev.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -66,8 +60,8 @@
       <file leaf-file-name="heats.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/heats.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.0851735" vertical-offset="486" max-vertical-offset="1332">
-              <caret line="24" column="76" selection-start-line="24" selection-start-column="76" selection-end-line="24" selection-end-column="76" />
+            <state vertical-scroll-proportion="0.659306" vertical-offset="572" max-vertical-offset="1206">
+              <caret line="54" column="2" selection-start-line="54" selection-start-column="2" selection-end-line="54" selection-end-column="2" />
               <folding />
             </state>
           </provider>
@@ -97,9 +91,9 @@
         <option value="$PROJECT_DIR$/racers.php" />
         <option value="$PROJECT_DIR$/teams.php" />
         <option value="$PROJECT_DIR$/sass/navigation/_menus.scss" />
-        <option value="$PROJECT_DIR$/heats.php" />
         <option value="$PROJECT_DIR$/sass/variables-site/_colors.scss" />
         <option value="$PROJECT_DIR$/sass/shame/_shame.scss" />
+        <option value="$PROJECT_DIR$/heats.php" />
       </list>
     </option>
   </component>
@@ -456,8 +450,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/heats.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.0851735" vertical-offset="486" max-vertical-offset="1332">
-          <caret line="24" column="76" selection-start-line="24" selection-start-column="76" selection-end-line="24" selection-end-column="76" />
+        <state vertical-scroll-proportion="0.659306" vertical-offset="572" max-vertical-offset="1206">
+          <caret line="54" column="2" selection-start-line="54" selection-start-column="2" selection-end-line="54" selection-end-column="2" />
           <folding />
         </state>
       </provider>
