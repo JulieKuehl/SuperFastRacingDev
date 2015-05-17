@@ -8,11 +8,11 @@
 			<tr>
 				<th>Date</th>
 				<th>Vehicle No.</th>
-				<th>Entry</th>
-				<th>Driver</th>
+				<th>Team</th>
+				<th>Racer</th>
 				<th>Class</th>
-				<th>Speed Down</th>
-				<th>Speed Return</th>
+				<th>Heat 1</th>
+				<th>Heat 2</th>
 				<th>Average</th>
 			</tr>
 			<tr>
